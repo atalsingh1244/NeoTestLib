@@ -15,6 +15,7 @@
 		A42B060423670E5B00F33049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B060223670E5B00F33049 /* Main.storyboard */; };
 		A42B060623670E5D00F33049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42B060523670E5D00F33049 /* Assets.xcassets */; };
 		A42B060923670E5D00F33049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B060723670E5D00F33049 /* LaunchScreen.storyboard */; };
+		A42B060F236711B400F33049 /* NeoTestLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B060E236711B400F33049 /* NeoTestLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		A42B060523670E5D00F33049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A42B060823670E5D00F33049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42B060A23670E5D00F33049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42B060E236711B400F33049 /* NeoTestLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoTestLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			children = (
 				A42B05E123670E2B00F33049 /* NeoTestLib.h */,
 				A42B05E223670E2B00F33049 /* Info.plist */,
+				A42B060E236711B400F33049 /* NeoTestLib.swift */,
 			);
 			path = NeoTestLib;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				TargetAttributes = {
 					A42B05DD23670E2B00F33049 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					A42B05E623670E2B00F33049 = {
 						CreatedOnToolsVersion = 10.1;
@@ -260,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42B060F236711B400F33049 /* NeoTestLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +440,7 @@
 		A42B05F323670E2B00F33049 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -451,6 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = atal.org.test.NeoTestLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,6 +466,7 @@
 		A42B05F423670E2B00F33049 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -483,6 +491,7 @@
 		A42B05F623670E2B00F33049 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NeoTestLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,6 +509,7 @@
 		A42B05F723670E2B00F33049 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = NeoTestLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
