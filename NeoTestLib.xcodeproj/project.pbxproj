@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A42B05E823670E2B00F33049 /* NeoTestLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42B05DE23670E2B00F33049 /* NeoTestLib.framework */; };
+		A42B05ED23670E2B00F33049 /* NeoTestLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B05EC23670E2B00F33049 /* NeoTestLibTests.swift */; };
+		A42B05EF23670E2B00F33049 /* NeoTestLib.h in Headers */ = {isa = PBXBuildFile; fileRef = A42B05E123670E2B00F33049 /* NeoTestLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A42B05FF23670E5B00F33049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B05FE23670E5B00F33049 /* AppDelegate.swift */; };
+		A42B060123670E5B00F33049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B060023670E5B00F33049 /* ViewController.swift */; };
+		A42B060423670E5B00F33049 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B060223670E5B00F33049 /* Main.storyboard */; };
+		A42B060623670E5D00F33049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42B060523670E5D00F33049 /* Assets.xcassets */; };
+		A42B060923670E5D00F33049 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42B060723670E5D00F33049 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A42B05E923670E2B00F33049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A42B05D523670E2B00F33049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A42B05DD23670E2B00F33049;
+			remoteInfo = NeoTestLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A42B05DE23670E2B00F33049 /* NeoTestLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeoTestLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42B05E123670E2B00F33049 /* NeoTestLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeoTestLib.h; sourceTree = "<group>"; };
+		A42B05E223670E2B00F33049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42B05E723670E2B00F33049 /* NeoTestLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoTestLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42B05EC23670E2B00F33049 /* NeoTestLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoTestLibTests.swift; sourceTree = "<group>"; };
+		A42B05EE23670E2B00F33049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A42B05FC23670E5B00F33049 /* NeoTestLibExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeoTestLibExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42B05FE23670E5B00F33049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A42B060023670E5B00F33049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A42B060323670E5B00F33049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A42B060523670E5D00F33049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A42B060823670E5D00F33049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A42B060A23670E5D00F33049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A42B05DB23670E2B00F33049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42B05E423670E2B00F33049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B05E823670E2B00F33049 /* NeoTestLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42B05F923670E5B00F33049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A42B05D423670E2B00F33049 = {
+			isa = PBXGroup;
+			children = (
+				A42B05E023670E2B00F33049 /* NeoTestLib */,
+				A42B05EB23670E2B00F33049 /* NeoTestLibTests */,
+				A42B05FD23670E5B00F33049 /* NeoTestLibExamples */,
+				A42B05DF23670E2B00F33049 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A42B05DF23670E2B00F33049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42B05DE23670E2B00F33049 /* NeoTestLib.framework */,
+				A42B05E723670E2B00F33049 /* NeoTestLibTests.xctest */,
+				A42B05FC23670E5B00F33049 /* NeoTestLibExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A42B05E023670E2B00F33049 /* NeoTestLib */ = {
+			isa = PBXGroup;
+			children = (
+				A42B05E123670E2B00F33049 /* NeoTestLib.h */,
+				A42B05E223670E2B00F33049 /* Info.plist */,
+			);
+			path = NeoTestLib;
+			sourceTree = "<group>";
+		};
+		A42B05EB23670E2B00F33049 /* NeoTestLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				A42B05EC23670E2B00F33049 /* NeoTestLibTests.swift */,
+				A42B05EE23670E2B00F33049 /* Info.plist */,
+			);
+			path = NeoTestLibTests;
+			sourceTree = "<group>";
+		};
+		A42B05FD23670E5B00F33049 /* NeoTestLibExamples */ = {
+			isa = PBXGroup;
+			children = (
+				A42B05FE23670E5B00F33049 /* AppDelegate.swift */,
+				A42B060023670E5B00F33049 /* ViewController.swift */,
+				A42B060223670E5B00F33049 /* Main.storyboard */,
+				A42B060523670E5D00F33049 /* Assets.xcassets */,
+				A42B060723670E5D00F33049 /* LaunchScreen.storyboard */,
+				A42B060A23670E5D00F33049 /* Info.plist */,
+			);
+			path = NeoTestLibExamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A42B05D923670E2B00F33049 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B05EF23670E2B00F33049 /* NeoTestLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A42B05DD23670E2B00F33049 /* NeoTestLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42B05F223670E2B00F33049 /* Build configuration list for PBXNativeTarget "NeoTestLib" */;
+			buildPhases = (
+				A42B05D923670E2B00F33049 /* Headers */,
+				A42B05DA23670E2B00F33049 /* Sources */,
+				A42B05DB23670E2B00F33049 /* Frameworks */,
+				A42B05DC23670E2B00F33049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoTestLib;
+			productName = NeoTestLib;
+			productReference = A42B05DE23670E2B00F33049 /* NeoTestLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A42B05E623670E2B00F33049 /* NeoTestLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42B05F523670E2B00F33049 /* Build configuration list for PBXNativeTarget "NeoTestLibTests" */;
+			buildPhases = (
+				A42B05E323670E2B00F33049 /* Sources */,
+				A42B05E423670E2B00F33049 /* Frameworks */,
+				A42B05E523670E2B00F33049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A42B05EA23670E2B00F33049 /* PBXTargetDependency */,
+			);
+			name = NeoTestLibTests;
+			productName = NeoTestLibTests;
+			productReference = A42B05E723670E2B00F33049 /* NeoTestLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A42B05FB23670E5B00F33049 /* NeoTestLibExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A42B060B23670E5D00F33049 /* Build configuration list for PBXNativeTarget "NeoTestLibExamples" */;
+			buildPhases = (
+				A42B05F823670E5B00F33049 /* Sources */,
+				A42B05F923670E5B00F33049 /* Frameworks */,
+				A42B05FA23670E5B00F33049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeoTestLibExamples;
+			productName = NeoTestLibExamples;
+			productReference = A42B05FC23670E5B00F33049 /* NeoTestLibExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A42B05D523670E2B00F33049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Atal Singh";
+				TargetAttributes = {
+					A42B05DD23670E2B00F33049 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A42B05E623670E2B00F33049 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A42B05FB23670E5B00F33049 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A42B05D823670E2B00F33049 /* Build configuration list for PBXProject "NeoTestLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A42B05D423670E2B00F33049;
+			productRefGroup = A42B05DF23670E2B00F33049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A42B05DD23670E2B00F33049 /* NeoTestLib */,
+				A42B05E623670E2B00F33049 /* NeoTestLibTests */,
+				A42B05FB23670E5B00F33049 /* NeoTestLibExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A42B05DC23670E2B00F33049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42B05E523670E2B00F33049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42B05FA23670E5B00F33049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B060923670E5D00F33049 /* LaunchScreen.storyboard in Resources */,
+				A42B060623670E5D00F33049 /* Assets.xcassets in Resources */,
+				A42B060423670E5B00F33049 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A42B05DA23670E2B00F33049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42B05E323670E2B00F33049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B05ED23670E2B00F33049 /* NeoTestLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A42B05F823670E5B00F33049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42B060123670E5B00F33049 /* ViewController.swift in Sources */,
+				A42B05FF23670E5B00F33049 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A42B05EA23670E2B00F33049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A42B05DD23670E2B00F33049 /* NeoTestLib */;
+			targetProxy = A42B05E923670E2B00F33049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A42B060223670E5B00F33049 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42B060323670E5B00F33049 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A42B060723670E5D00F33049 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A42B060823670E5D00F33049 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A42B05F023670E2B00F33049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A42B05F123670E2B00F33049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A42B05F323670E2B00F33049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NeoTestLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = atal.org.test.NeoTestLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42B05F423670E2B00F33049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NeoTestLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = atal.org.test.NeoTestLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A42B05F623670E2B00F33049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeoTestLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = atal.org.test.NeoTestLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42B05F723670E2B00F33049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeoTestLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = atal.org.test.NeoTestLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A42B060C23670E5D00F33049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeoTestLibExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = atal.org.test.NeoTestLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42B060D23670E5D00F33049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeoTestLibExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = atal.org.test.NeoTestLibExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A42B05D823670E2B00F33049 /* Build configuration list for PBXProject "NeoTestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42B05F023670E2B00F33049 /* Debug */,
+				A42B05F123670E2B00F33049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42B05F223670E2B00F33049 /* Build configuration list for PBXNativeTarget "NeoTestLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42B05F323670E2B00F33049 /* Debug */,
+				A42B05F423670E2B00F33049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42B05F523670E2B00F33049 /* Build configuration list for PBXNativeTarget "NeoTestLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42B05F623670E2B00F33049 /* Debug */,
+				A42B05F723670E2B00F33049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A42B060B23670E5D00F33049 /* Build configuration list for PBXNativeTarget "NeoTestLibExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42B060C23670E5D00F33049 /* Debug */,
+				A42B060D23670E5D00F33049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A42B05D523670E2B00F33049 /* Project object */;
+}
